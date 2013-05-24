@@ -5,7 +5,7 @@
 # Needed to keep generic types and @Key annotations accessed via reflection
 
 -keepattributes Signature,RuntimeVisibleAnnotations,AnnotationDefault
-twtwgwgw
+
 -keepclassmembers class * {
   @com.google.api.client.util.Key <fields>;
 }
